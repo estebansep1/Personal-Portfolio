@@ -1,7 +1,9 @@
+import React from 'react';
+
 export default function NavBar() {
     return (
         <div>
-            <h1>NavBar</h1>
+            <img className="name-logo" src="./name.svg" alt="Name logo" />
         </div>
-    )
+    );
 }
