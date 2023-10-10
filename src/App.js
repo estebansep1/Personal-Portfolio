@@ -7,8 +7,15 @@ import NavBar from './Components/Navbar';
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Home />
+      <Router>
+        <div>
+          <NavBar />
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='*' element={<div>404 Not Found</div>} />
+          </Routes>
+        </div>
+      </Router>
     </div>
   );
 }
