@@ -12,6 +12,8 @@ export default function MySkills() {
             <div className="skills--section--card">
                 <div className="skills--section--img">
                     <img src="./images/frontend.png" alt="frontend" />
+                    <img src="./images/backend.png" alt="backend" />
+                    <img src="./images/misc.png" alt="misc" />
                 </div>
             </div>
         </div>
