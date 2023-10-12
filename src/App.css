@@ -311,4 +311,82 @@ h2 {
   font-weight: 400;
   line-height: 32px;
 }
+
+/*!FRONTEND CARD */
+.skills--section--description li.with--icon {
+  list-style: none;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 0 4px;
+  padding-left: 40px;
+  margin-bottom: 15px;
+}
+
+.skills--section--description li.with--icon:nth-child(1) {
+  background-image: url('../public/Images/html.png');
+}
+
+.skills--section--description li.with--icon:nth-child(2) {
+  background-image: url('../public/Images/css.png');
+}
+
+.skills--section--description li.with--icon:nth-child(3) {
+  background-image: url('../public/Images/javascript.png');
+}
+
+.skills--section--description li.with--icon:nth-child(4) {
+  background-image: url('../public/Images/react.png');
+}
+
+/* !BACKEND CARD */
+.skills--section--description li.with--icon--2 {
+  list-style: none;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 0 4px;
+  padding-left: 40px;
+  margin-bottom: 15px;
+}
+
+.skills--section--description li.with--icon--2:nth-child(1) {
+  background-image: url('../public/Images/node.png');
+}
+
+.skills--section--description li.with--icon--2:nth-child(2) {
+  background-image: url('../public/Images/express.png');
+}
+
+.skills--section--description li.with--icon--2:nth-child(3) {
+  background-image: url('../public/Images/mongodb.png');
+}
+
+.skills--section--description li.with--icon--2:nth-child(4) {
+  background-image: url('../public/Images/postgres.png');
+}
+
+/*! OTHER TOOLS CARD */ 
+.skills--section--description li.with--icon--3 {
+  list-style: none;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 0 4px;
+  padding-left: 40px;
+  margin-bottom: 15px;
+}
+
+.skills--section--description li.with--icon--3:nth-child(1) {
+  background-image: url('../public/Images/uxui.png');
+}
+
+.skills--section--description li.with--icon--3:nth-child(2) {
+  background-image: url('../public/Images/git.png');
+}
+
+.skills--section--description li.with--icon--3:nth-child(3) {
+  background-image: url('../public/Images/github.png');
+}
+
+.skills--section--description li.with--icon--3:nth-child(4) {
+  background-image: url('../public/Images/api.png');
+}
 /* End of Skills */

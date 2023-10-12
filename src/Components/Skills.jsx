@@ -15,9 +15,10 @@ export default function MySkills() {
                     <div className="skills--section--card--content">
                         <h3 className="skills--section--title">Front-End</h3>
                         <ul className="skills--section--description">
-                            <li>HTML/CSS</li>
-                            <li>JavaScript</li>
-                            <li>React/Redux</li>
+                            <li className="with--icon">HTML</li>
+                            <li className="with--icon">CSS</li>
+                            <li className="with--icon">JavaScript</li>
+                            <li className="with--icon">React/Redux</li>
                         </ul>
                     </div>
                 </div>
@@ -28,10 +29,10 @@ export default function MySkills() {
                     <div className="skills--section--card--content">
                         <h3 className="skills--section--title">Back-End</h3>
                         <ul className="skills--section--description">
-                            <li>NodeJS</li>
-                            <li>Express</li>
-                            <li>MongoDB</li>
-                            <li>PostgreSQL</li>
+                            <li className="with--icon--2">NodeJS</li>
+                            <li className="with--icon--2">Express</li>
+                            <li className="with--icon--2">MongoDB</li>
+                            <li className="with--icon--2">PostgreSQL</li>
                         </ul>
                     </div>
                 </div>
@@ -42,10 +43,10 @@ export default function MySkills() {
                     <div className="skills--section--card--content">
                         <h3 className="skills--section--title">Other Tools</h3>
                         <ul className="skills--section--description">
-                            <li>UI/UX</li>
-                            <li>Git</li>
-                            <li>GitHub</li>
-                            <li>RESTful APIs</li>
+                            <li className="with--icon--3">UI/UX</li>
+                            <li className="with--icon--3">Git</li>
+                            <li className="with--icon--3">GitHub</li>
+                            <li className="with--icon--3">RESTful APIs</li>
                         </ul>
                     </div>
                 </div>
