@@ -1,7 +1,11 @@
 export default function AboutMe() {
     return (
         <div>
-            <h1>About Me</h1>
+            <section id="AboutMe" className="about--section">
+                <div className="about--section--img">
+                    
+                </div>
+            </section>
         </div>
     )
 }
