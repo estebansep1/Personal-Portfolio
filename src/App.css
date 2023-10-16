@@ -389,3 +389,16 @@ h2 {
   background-image: url('../public/Images/api.png');
 }
 /* End of Skills */
+
+/* Start of About me*/
+.about--section {
+  display: grid;
+  padding: 130px 85px;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+
+.about--section--img > img {
+
+}
