@@ -30,10 +30,7 @@ export default function HeroSection() {
             I am a junior developer currently enrolled in the SDSU Software Development Bootcamp, actively working to expand my skills and knowledge in Software Development
           </p>
         </div>
-        <button className="btn btn-primary" onClick={() => window.location.href = "mailto:tebansd@icloud.com"}>
-          Get In Touch
-        </button>
-
+        <a href="mailto:tebansd@icloud.com" className="btn btn-primary">Get In Touch</a>
       </div>
       <div className="hero--section--img">
         <img src="./images/logo.png" alt="Hero Section" />
