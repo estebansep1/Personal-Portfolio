@@ -70,6 +70,7 @@ h1, h2, h3, h4, h5, h6, p {
   align-items: center;
   box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.95);
   gap: 16px;
+  margin-top: 20px;
 }
 .btn-github:hover {
   color: var(--github);
@@ -151,6 +152,7 @@ h2 {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 999;
 }
 
 .navbar--items > ul {
@@ -432,6 +434,7 @@ h2 {
   justify-content: center;
   gap: 42.6px;
   width: 100%;
+  
 }
 .portfolio--section--img {
   border-radius: 8px;
@@ -442,20 +445,21 @@ h2 {
 }
 .portfolio--section--card {
   display: flex;
+  padding: 16px;
   flex-direction: column;
   align-items: flex-start;
-  padding: 16px; /* Reduce padding to make it more compact */
-  gap: 16px; /* Reduce the gap between elements inside the card */
-  width: 100%; /* Use 100% width to keep it within the container */
-  max-width: 300px; /* Set a maximum width for the card */
+  gap: 16px;
+  width: 100%;
+  max-width: 500px;
+  flex: 1 0 0;
   background: #fff;
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
   border-radius: 8px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+  position: relative;
 }
-
 .portfolio--section--card--content {
   display: flex;
   padding: 16px;
@@ -471,11 +475,51 @@ h2 {
   text-decoration: none;
   display: flex;
   gap: 16px;
-  border-bottom: 1.33px solid var(--primary);
-  padding-bottom: 10.6px;
   font-weight: 600;
 }
 .portfolio--section--card:hover path {
-  stroke: #006b6a;
+  stroke: var(--github);
+  border-bottom: 1.33px solid var(--primary);
+  padding-bottom: 10.6px;
+}
+
+.portfolio--section--card::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1.33px;
+  background-color: var(--primary);
+  transform: scaleX(0); 
+  transition: transform 0.3s ease; 
+}
+
+.portfolio--section--card:hover::after {
+  transform: scaleX(1); 
+}
+
+.portfolio--link:hover{
+  stroke:var(--primary);
+  border-bottom: 1.33px solid var(--primary);
+  padding-bottom: 10.6px;
+}
+
+.portfolio--link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1.33px;
+  background-color: var(--github);
+  transform: scaleX(0); 
+  transition: transform 0.3s ease; 
+}
+
+.portfolio--link:hover::after {
+  transform: scaleX(1);
 }
 /* End of Portfolio */
