@@ -414,21 +414,18 @@ h2 {
   align-items: flex-start;
   gap: 80px;
 }
-
-.portfolio--section--container--box {
+.portfolio--container-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
-
 .portfolio--container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 21px;
+  gap: 21.3px;
 }
-
 .portfolio--section--container {
   display: flex;
   align-items: center;
@@ -436,12 +433,10 @@ h2 {
   gap: 42.6px;
   width: 100%;
 }
-
 .portfolio--section--img {
   border-radius: 8px;
   width: 100%;
 }
-
 .portfolio--section--img > img {
   width: 100%;
 }
@@ -449,13 +444,13 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 16px;
+  gap: 32px;
   flex: 1 0 0;
   background: #fff;
-  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8cqb;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
 .portfolio--section--card--content {
   display: flex;
@@ -469,7 +464,7 @@ h2 {
   color: var(--heading-color);
 }
 .portfolio--link {
-  text-decoration: none;
+  text-decoration: none; 
   display: flex;
   gap: 16px;
   border-bottom: 1.33px solid var(--primary);
@@ -480,11 +475,3 @@ h2 {
   stroke: #006b6a;
 }
 /* End of Portfolio */
-
-.github-link {
-  text-decoration: none;
-}
-
-.github-text{
-  text-decoration: none;
-}
