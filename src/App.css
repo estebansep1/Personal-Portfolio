@@ -464,7 +464,7 @@ h2 {
   color: var(--heading-color);
 }
 .portfolio--link {
-  text-decoration: none; 
+  text-decoration: none;
   display: flex;
   gap: 16px;
   border-bottom: 1.33px solid var(--primary);
