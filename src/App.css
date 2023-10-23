@@ -525,3 +525,12 @@ h2 {
 /* End of Portfolio */
 
 /* Start of footer */
+.footer--container {
+  display: flex;
+  flex-direction: center;
+  background-color: var(--bg-shade);
+  padding: 107px 85px;
+  align-items: flex-start;
+  align-items: center;
+  align-self: stretch;
+}
