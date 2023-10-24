@@ -41,7 +41,7 @@ export default function MyPortfolio() {
                 <h3 className="portfolio--section--title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
               </div>
-              <a href="https://github.com/estebansep1/PongGame" className="text-sm portfolio--link">
+              <a href="https://github.com/estebansep1/PongGame" className="text-sm portfolio--link" target="_blank" rel="noreferrer">
                 {item.link} 
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@ export default function MyPortfolio() {
                   />
                 </svg>
               </a>
-              <a href="https://gameofpong.netlify.app/" className="text-sm portfolio--link">
+              <a href="https://gameofpong.netlify.app/" className="text-sm portfolio--link" target="_blank" rel="noreferrer">
                 View Deployed Game
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
