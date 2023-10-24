@@ -552,6 +552,12 @@ h2 {
 
 .footer--icon {
   vertical-align: middle;
+  transform: scale(1);
+  transition: transform 0.3s;
+}
+
+.footer--icon:hover {
+  transform: scale(1.2);
 }
 
 .footer--social--icon > ul {

@@ -74,11 +74,11 @@ export default function Footer() {
             rel="noreferrer"
           >
             <svg
-            className="footer-icon"
+            className="footer--icon"
               xmlns="http://www.w3.org/2000/svg"
               width="54"
               height="54"
-              viewBox="0 0 33 33"
+              viewBox="0 1 33 33"
               fill="none"
             >
               <path
@@ -100,7 +100,7 @@ export default function Footer() {
             <svg
             className="footer--icon"
               xmlns="http://www.w3.org/2000/svg"
-              width="55"
+              width="56"
               height="55"
               viewBox=" 0 -3 33 33"
               fill="none"
