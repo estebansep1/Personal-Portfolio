@@ -122,6 +122,5 @@ export default function Footer() {
     <p className="footer--content">Made by Esteban 🧑🏻‍💻 Stay Tuned for More!</p>
   </div>
 </footer>
-
-    )
+  )
 }
