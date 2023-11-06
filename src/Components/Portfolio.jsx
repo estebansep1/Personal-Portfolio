@@ -31,55 +31,55 @@ export default function MyPortfolio() {
         </div>
       </div>
       <div className="portfolio--section--container">
-        {data?.portfolio?.map((item, index) => (
-          <div key={index} className="portfolio--section--card">
-            <div className="portfolio--section--img">
-              <img src={item.src} alt="Placeholder" />
-            </div>
-            <div className="portfolio--section--card--content">
-              <div>
-                <h3 className="portfolio--section--title">{item.title}</h3>
-                <p className="text-md">{item.description}</p>
-              </div>
-              <a href="https://github.com/estebansep1/PongGame" className="text-sm portfolio--link" target="_blank" rel="noreferrer">
-                {item.link} 
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 20 19"
-                  fill="none"
-                >
-                  <path
-                    d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
-                    stroke="currentColor"
-                    stroke-width="2.66667"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </a>
-              <a href="https://gameofpong.netlify.app/" className="text-sm portfolio--link" target="_blank" rel="noreferrer">
-                View Deployed Game
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 20 19"
-                  fill="none"
-                >
-                  <path
-                    d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
-                    stroke="currentColor"
-                    stroke-width="2.66667"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-        ))}
+      {data?.portfolio?.map((item, index) => (
+  <div key={index} className="portfolio--section--card">
+    <div className="portfolio--section--img">
+      <img src={item.src} alt="Placeholder" />
+    </div>
+    <div className="portfolio--section--card--content">
+      <div>
+        <h3 className="portfolio--section--title">{item.title}</h3>
+        <p className="text-md">{item.description}</p>
+      </div>
+      <a href={item.githubLink} className="text-sm portfolio--link" target="_blank" rel="noreferrer">
+        View GitHub Repository 
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          viewBox="0 0 20 19"
+          fill="none"
+        >
+          <path
+            d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
+            stroke="currentColor"
+            stroke-width="2.66667"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </a>
+      <a href={item.liveLink} className="text-sm portfolio--link" target="_blank" rel="noreferrer">
+        Go to Live Project
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          viewBox="0 0 20 19"
+          fill="none"
+        >
+          <path
+            d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
+            stroke="currentColor"
+            stroke-width="2.66667"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </a>
+    </div>
+  </div>
+))}
       </div>
     </section>
   );
