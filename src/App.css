@@ -784,4 +784,15 @@ h2 {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .hero--section-title {
+    font-size: 20px;
+  }
+
+  .btn-primary{
+    align-items: center;
+    justify-content: center;
+    margin-left: 57px;
+  }
+}
 /* Responsive Screens Ends*/

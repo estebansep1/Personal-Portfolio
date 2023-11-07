@@ -4,7 +4,7 @@ import Typed from 'typed.js';
 export default function HeroSection() {
   useEffect(() => {
     const typed = new Typed('.hero--section-title', {
-      strings: ['Full Stack Developer', 'Software Devloper', 'Student'],
+      strings: [ 'Software Devloper', 'Student'],
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 1000,
@@ -23,7 +23,7 @@ export default function HeroSection() {
         <div className="hero--section--content">
           <p className="section--title">Hey, I'm Esteban</p>
           <h1 className="hero--section-title">
-            <span className="hero--section-title--color">Full Stack</span> <br />
+            <span className="hero--section-title--color">Software</span> <br />
             Developer
           </h1>
           <p className="hero--section-description">
