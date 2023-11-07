@@ -6,6 +6,8 @@
 
 Explore the projects, discover my areas of expertise, and get in touch to discuss potential collaborations or opportunities.
 
-**To be deployed soon.**
+
+
+**-To be deployed soon.**
 
 -Esteban Sepulveda
