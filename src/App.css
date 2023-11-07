@@ -638,6 +638,12 @@ h2 {
     display: none;
   }
 
+  .btn-primary{
+    justify-content: center;
+    align-items: center;
+    margin-left: 42%
+  }
+
   .hero--section {
     display: flex;
     flex-direction: column-reverse;
@@ -793,6 +799,12 @@ h2 {
     align-items: center;
     justify-content: center;
     margin-left: 57px;
+  }
+  
+  .navbar {
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
   }
 }
 /* Responsive Screens Ends*/
