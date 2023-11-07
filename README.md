@@ -8,4 +8,4 @@ Explore the projects, discover my areas of expertise, and get in touch to discus
 
 
 
--To be deployed soon, Esteban Sepulveda
+- Esteban Sepulveda
