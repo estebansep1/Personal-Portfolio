@@ -3,6 +3,7 @@ import MySkills from "./Skills";
 import AboutMe from "./AboutMe";
 import MyPortfolio from "./Portfolio";
 import Footer from "./Footer";
+import Contact from "./Contact";
 
 export default function Home() {
     return (
@@ -11,6 +12,7 @@ export default function Home() {
          <MySkills />
          <AboutMe />
          <MyPortfolio />
+         <Contact />
          <Footer />
         </>
     )
