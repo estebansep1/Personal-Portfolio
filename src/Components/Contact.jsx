@@ -4,10 +4,21 @@ import emailjs from "@emailjs/browser";
 export default function Contact() {
   const form = useRef();
 
+  const formatPhoneNumber = (value) => {
+
+    const dashedDigits = value.replace(/\D/g, "")
+
+    const formattedPhoneNumber = dashedDigits.replace(
+        /(\d{3})(\d{3})(\d{4})/,
+        "$1-$2-$3"
+      );
+      return formattedPhoneNumber;
+};
+
   const sendEmail = (e) => {
     e.preventDefault();
 
-    console.log(form.current);
+    form.current.number.value = formatPhoneNumber(form.current.number.value)
 
     emailjs
       .sendForm(
@@ -74,7 +85,7 @@ export default function Contact() {
           <label htmlFor="phone-number" className="contact--label">
             <span className="text-md">Phone Number</span>
             <input
-              type="number"
+              type="tel"
               className="contact--input text-md"
               name="number"
               id="phone-number"
