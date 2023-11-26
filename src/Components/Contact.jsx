@@ -2,6 +2,32 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 export default function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    console.log(form.current);
+
+    emailjs
+      .sendForm(
+        "service_ct6kpcm",
+        "template_4rvt531",
+        form.current,
+        "-D6F2RlW-r0lJ_2S0"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+    alert("Email was sent successfully!");
+  };
+
   return (
     <section id="Contact" className="contact--section">
       <div>
@@ -9,14 +35,18 @@ export default function Contact() {
         <h2>Contact Me</h2>
         <p className="text-lg">Want to connect? Feel free to reach out!</p>
       </div>
-      <form className="contact--form--container">
+      <form
+        ref={form}
+        onSubmit={sendEmail}
+        className="contact--form--container"
+      >
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
             <span className="text-md">First Name</span>
             <input
               type="text"
               className="contact--input text-md"
-              name="first-name"
+              name="first_name"
               id="first-name"
               required
             />
@@ -26,7 +56,7 @@ export default function Contact() {
             <input
               type="text"
               className="contact--input text-md"
-              name="last-name"
+              name="last_name"
               id="last-name"
               required
             />
@@ -46,7 +76,7 @@ export default function Contact() {
             <input
               type="number"
               className="contact--input text-md"
-              name="phone-number"
+              name="number"
               id="phone-number"
             />
           </label>
@@ -55,6 +85,7 @@ export default function Contact() {
           <span className="text-md">Message</span>
           <textarea
             className="contact--input text-md"
+            name="message"
             id="message"
             rows="8"
             placeholder="Leave your message here..."
