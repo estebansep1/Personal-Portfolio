@@ -5,20 +5,19 @@ export default function Contact() {
   const form = useRef();
 
   const formatPhoneNumber = (value) => {
-
-    const dashedDigits = value.replace(/\D/g, "")
+    const dashedDigits = value.replace(/\D/g, "");
 
     const formattedPhoneNumber = dashedDigits.replace(
-        /(\d{3})(\d{3})(\d{4})/,
-        "$1-$2-$3"
-      );
-      return formattedPhoneNumber;
-};
+      /(\d{3})(\d{3})(\d{4})/,
+      "$1-$2-$3"
+    );
+    return formattedPhoneNumber;
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    form.current.number.value = formatPhoneNumber(form.current.number.value)
+    form.current.number.value = formatPhoneNumber(form.current.number.value);
 
     emailjs
       .sendForm(
@@ -36,7 +35,9 @@ export default function Contact() {
         }
       );
     e.target.reset();
-    alert("Thanks for reaching out! I will get back to you as soon as possible.");
+    alert(
+      "Thanks for reaching out! I will get back to you as soon as possible."
+    );
   };
 
   return (
