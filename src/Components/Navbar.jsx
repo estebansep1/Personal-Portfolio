@@ -41,9 +41,8 @@ export default function NavBar() {
         offset={-70}
         duration={500}
         className="logo-link"
-      ><a href='#Home'>
+      >
         <img className="name-logo" src="./images/name.svg" alt="Name logo" />
-        </a>
       </Link>
       <a
         href="#Navbar"
