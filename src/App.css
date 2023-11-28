@@ -557,6 +557,11 @@ h2 {
   background: var(--white);
 }
 
+.contact--form--button {
+  display: block;
+  margin: 0 auto; 
+}
+
 /* End of Contact */
 
 /* Start of footer */
