@@ -78,3 +78,14 @@
         transform: rotateX(90deg)
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .cube--container {
+        width: 90vw;
+        height: 60vh; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      }
+}
