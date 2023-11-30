@@ -7,7 +7,7 @@ import {
   faGitAlt,
   faJsSquare,
   faReact,
-  faNode,
+  faPython,
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function SpinningCube() {
@@ -30,7 +30,7 @@ export default function SpinningCube() {
           <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
         </div>
         <div className="face6">
-          <FontAwesomeIcon icon={faNode} color="#448e02" />
+          <FontAwesomeIcon icon={faPython} color="#306998" />
         </div>
       </div>
     </div>
