@@ -655,7 +655,6 @@ h2 {
 }
 
 .text-md:hover {
-  color: var(--primary);
   cursor: pointer;
 }
 /* End of Footer */
