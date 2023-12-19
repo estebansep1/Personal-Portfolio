@@ -6,14 +6,14 @@ import Footer from "./Footer";
 import Contact from "./Contact";
 
 export default function Home() {
-    return (
-        <>
-         <HeroSection />
-         <MySkills />
-         <AboutMe />
-         <MyPortfolio />
-         <Contact />
-         <Footer />
-        </>
-    )
+  return (
+    <>
+      <HeroSection />
+      <MySkills />
+      <AboutMe />
+      <MyPortfolio />
+      <Contact />
+      <Footer />
+    </>
+  );
 }

@@ -12,9 +12,8 @@ const data = {
       id: 2,
       title: 'Wander List',
       description: `Wander List is a user-friendly to-do app built with React. Easily register and create your account to start organizing your tasks effortlessly. Whether it's your daily tasks or long-term goals, Wander List lets you manage them all. Plus, it offers a sleek dark mode for those late-night productivity sessions. Stay organized and on track with Wander List.`,
-      src: '/images/wander-list.svg',
-      githubLink: 'https://github.com/MyManny/milestone-project-2',
-      liveLink: 'https://milestone-project-2-yymk.onrender.com/',
+      src: '/images/wanderList.mp4',
+      githubLink: 'https://github.com/MyManny/milestone-project-2'
     },
   ],
 };

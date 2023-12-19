@@ -881,3 +881,8 @@ h2 {
   }
 }
 /* Responsive Screens Ends*/
+
+
+.portfolio--section--img video { /* Adjust based on the actual width of your image */
+  height: 75%;
+}
