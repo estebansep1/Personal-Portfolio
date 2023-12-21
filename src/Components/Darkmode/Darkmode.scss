@@ -1,0 +1,15 @@
+:root {
+    --dark-primary: #e66c75;
+    --dark-heading-color: #eaeaea;
+    --dark-bg-shade: #1a1a1a;
+    --dark-github: #ff75a0;
+    --dark-darkblue: #0a0a0a;
+    --dark-black: #ffffff;
+    --dark-white: #000000;
+}
+
+body.dark-mode {
+    background-color: var(--dark-bg-shade);
+    color: var(--dark-white)
+}
+

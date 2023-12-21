@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import DarkModeToggle from './Darkmode/Darkmode.jsx';
 
 export default function NavBar() {
   const [navActive, setNavActive] = useState(false);
@@ -54,6 +55,7 @@ export default function NavBar() {
         <span className="nav__hamburger__line"></span>
       </a>
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
+      <DarkModeToggle />
         <ul>
           <li>
             <Link
