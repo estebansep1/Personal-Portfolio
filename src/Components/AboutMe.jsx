@@ -10,7 +10,7 @@ export default function AboutMe() {
             <p className="section--title">About</p>
             <h1 className="skills--section--heading">About Me</h1>
             <p className="hero--section-description">
-              Hello, I'm Esteban, and I'm currently a student at San Diego
+              Hello, I'm Esteban, and I have recently graduated from San Diego
               State's Software Development Bootcamp. I'm passionate about
               coding, dedicated to learning, and growing in the world of
               software development.

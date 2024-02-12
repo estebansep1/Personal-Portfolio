@@ -27,9 +27,11 @@ export default function HeroSection() {
             Developer
           </h1>
           <p className="hero--section-description">
-            I am a junior developer currently enrolled in the SDSU Software
-            Development Bootcamp, actively working to expand my skills and
-            knowledge in Software Development
+            With a strong foundation in web development, I recently graduated
+            from a software development bootcamp. While software is my
+            expertise, I'm also passionate about exploring hardware aspects,
+            particularly Arduino projects, to deepen my understanding of AI and
+            robotics.
           </p>
         </div>
         <a href="mailto:tebansd@icloud.com" className="btn btn-primary">
