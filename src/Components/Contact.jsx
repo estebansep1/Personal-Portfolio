@@ -60,6 +60,7 @@ export default function Contact() {
               className="contact--input text-md"
               name="first_name"
               id="first-name"
+              placeholder="John"
               required
             />
           </label>
@@ -70,6 +71,7 @@ export default function Contact() {
               className="contact--input text-md"
               name="last_name"
               id="last-name"
+              placeholder="Doe"
               required
             />
           </label>
@@ -80,6 +82,7 @@ export default function Contact() {
               className="contact--input text-md"
               name="email"
               id="email"
+              placeholder="123Email@example.com"
               required
             />
           </label>
@@ -90,6 +93,7 @@ export default function Contact() {
               className="contact--input text-md"
               name="number"
               id="phone-number"
+              placeholder="123-456-7890"
             />
           </label>
         </div>
