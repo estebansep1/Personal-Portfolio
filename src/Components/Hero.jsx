@@ -4,7 +4,7 @@ import Typed from "typed.js";
 export default function HeroSection() {
   useEffect(() => {
     const typed = new Typed(".hero--section-title", {
-      strings: ["Software Devloper", "Student"],
+      strings: ["Software Devloper", "Full Stack Developer"],
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 1000,
@@ -27,11 +27,8 @@ export default function HeroSection() {
             Developer
           </h1>
           <p className="hero--section-description">
-            With a strong foundation in web development, I recently graduated
-            from a software development bootcamp. While software is my
-            expertise, I'm also passionate about exploring hardware aspects,
-            particularly Arduino projects, to deepen my understanding of AI and
-            robotics.
+          As a junior developer with a strong foundation in web development, I recently graduated from a software development bootcamp. 
+          My expertise is rooted in software engineering, where I am continuously seeking to deepen my knowledge and skills in this dynamic field.
           </p>
         </div>
         <a href="mailto:tebansd@icloud.com" className="btn btn-primary">

@@ -16,11 +16,9 @@ export default function AboutMe() {
               software development.
             </p>
             <p className="hero--section-description">
-              During my journey, I'm acquiring skills in areas like Front-end
-              and Back-End technologies. I'm excited to combine my education
-              with real-world experience and build amazing projects. Feel free
-              to reach out to connect, collaborate, or just chat about
-              technology!
+            As a junior developer my skills expand well into both front-end and back-end technologies. 
+            Alongside deepening my expertise in software engineering, I'm embarking on an exciting journey into robotics and gadgets, starting with Arduino projects. 
+            My enthusiasm for turning these ideas into reality is sky-high. I'm right at the starting line, ready to explore how coding can bring innovative projects to life.
             </p>
           </div>
         </div>
