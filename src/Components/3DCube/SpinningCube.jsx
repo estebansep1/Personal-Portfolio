@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "./SpinningCube.scss";
+import '../../Css/SpinningCube.css'
 import {
   faHtml5,
   faCss3,
