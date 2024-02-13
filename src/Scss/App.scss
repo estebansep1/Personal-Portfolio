@@ -21,12 +21,14 @@ body {
     -moz-osx-font-smoothing: "Roboto", sans-serif;
     font-style: normal;
 }
+
 h1 {
     margin: 0;
     font-size: 56px;
     font-weight: 700;
     line-height: 67px;
 }
+
 h2 {
     margin: 0;
     font-size: 48px;
@@ -36,21 +38,27 @@ h2 {
     font-weight: 700;
     line-height: 34px;
 }
+
 h3 {
     margin: 0;
 }
+
 h4 {
     margin: 0;
 }
+
 h5 {
     margin: 0;
 }
+
 h6 {
     margin: 0;
 }
+
 p {
     margin: 0;
 }
+
 :root {
     --primary: #5e3bee;
     --heading-color: #282938;
@@ -60,6 +68,7 @@ p {
     --black: #000000;
     --white: #ffffff;
 }
+
 .btn {
     font-family: $font-family_2;
     display: inline-block;
@@ -82,6 +91,7 @@ p {
     -ms-transition: background-color 0.5s;
     -o-transition: background-color 0.5s;
 }
+
 .btn-outline-primary {
     color: $color_1;
     background-color: $background-color_1;
@@ -91,6 +101,7 @@ p {
         background-color: $background-color_2;
     }
 }
+
 .btn-primary {
     color: $color_2;
     background-color: $background-color_2;
@@ -100,6 +111,7 @@ p {
         background-color: $background-color_1;
     }
 }
+
 .btn-github {
     color: $color_2;
     background-color: $background-color_3;
@@ -116,6 +128,7 @@ p {
         background-color: $background-color_1;
     }
 }
+
 .text-lg {
     color: $color_4;
     font-size: 18px;
@@ -123,6 +136,7 @@ p {
     font-weight: 400;
     line-height: 27px;
 }
+
 .text-md {
     color: $color_4;
     font-size: 16px;
@@ -133,6 +147,7 @@ p {
         cursor: pointer;
     }
 }
+
 .text-sm {
     color: $color_5;
     font-size: 14px;
@@ -140,6 +155,7 @@ p {
     font-weight: 400;
     line-height: 21px;
 }
+
 .section--title {
     color: $color_6;
     font-size: 21px;
@@ -150,12 +166,14 @@ p {
     display: flex;
     align-items: flex-start;
 }
+
 .sub--title {
     color: $color_6;
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
 }
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -169,6 +187,7 @@ p {
     right: 0;
     z-index: 999;
 }
+
 .navbar--items {
     > ul {
         list-style: none;
@@ -177,6 +196,7 @@ p {
         gap: 43px;
         text-decoration: none;
     }
+
     ul {
         > li {
             > a {
@@ -185,6 +205,7 @@ p {
         }
     }
 }
+
 .navbar--content {
     color: $color_4;
     font-size: 16px;
@@ -196,14 +217,17 @@ p {
         color: $color_1;
     }
 }
+
 .navbar--active-content {
     color: $color_1;
 }
+
 .name-logo {
     &:hover {
         cursor: pointer;
     }
 }
+
 .hero--section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -213,6 +237,7 @@ p {
     gap: 32px;
     background-color: $background-color_4;
 }
+
 .hero- {
     -section--content-box {
         display: flex;
@@ -221,17 +246,20 @@ p {
         gap: 32px;
     }
 }
+
 .hero--section--content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 21.333px;
 }
+
 .hero--section--content--box {
     > button {
         margin-top: 21.333px;
     }
 }
+
 .hero--section--title {
     color: $color_6;
     font-size: 74.667px;
@@ -239,15 +267,18 @@ p {
     line-height: 90px;
     align-self: stretch;
 }
+
 .hero--section--title--color {
     color: $color_1;
 }
+
 .hero--section-description {
     color: $color_4;
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
 }
+
 .hero--section--img {
     display: flex;
     > img {
@@ -255,6 +286,7 @@ p {
         height: 100%;
     }
 }
+
 .skills--section {
     display: flex;
     padding: 150px 85px;
@@ -262,12 +294,14 @@ p {
     justify-content: center;
     gap: 107px;
 }
+
 .skills--section--heading {
     color: $color_6;
     font-size: 64px;
     font-weight: 700;
     line-height: 120px;
 }
+
 .skills--section--container {
     display: grid;
     justify-content: center;
@@ -275,6 +309,7 @@ p {
     gap: 43px;
     grid-template-columns: repeat(3, 1fr);
 }
+
 .skills--section--card {
     list-style: none;
     display: flex;
@@ -291,6 +326,7 @@ p {
         color: $color_4;
     }
 }
+
 .skills--section--description {
     color: $color_4;
     color: $color_5;
@@ -312,6 +348,7 @@ p {
             background-image: url("../../public/Images/react.png");
         }
     }
+
     li.with--icon--2 {
         &:nth-child(1) {
             background-image: url("../../public/Images/python.png");
@@ -329,6 +366,7 @@ p {
             background-image: url("../../public/Images/postgres.png");
         }
     }
+
     li.with--icon--3 {
         &:nth-child(1) {
             background-image: url("../../public/Images/flask.png");
@@ -347,6 +385,7 @@ p {
         }
     }
 }
+
 .skills--section--img {
     display: flex;
     padding: 13px;
@@ -357,6 +396,7 @@ p {
     background: #fff;
     box-shadow: 0px 0px 16px 0 rgba(0, 0, 0, 0.1);
 }
+
 .skills--section--card--content {
     display: flex;
     flex-direction: column;
@@ -364,6 +404,7 @@ p {
     gap: 32px;
     align-self: stretch;
 }
+
 .skills--section--title {
     color: $color_6;
     font-size: 32px;
@@ -381,6 +422,7 @@ p {
         margin-bottom: 15px;
     }
 }
+
 .skills--section--description {
     li.with--icon--2 {
         list-style: none;
@@ -391,6 +433,7 @@ p {
         margin-bottom: 15px;
     }
 }
+
 .skills--section--description {
     li.with--icon--3 {
         list-style: none;
@@ -410,12 +453,14 @@ p {
     gap: 114px;
     grid-template-columns: repeat(2, 1fr);
 }
+
 .about--section--img {
     > img {
         width: 100%;
         height: 100%;
     }
 }
+
 .portfolio--section {
     display: flex;
     padding: 112px 85px;
@@ -423,6 +468,7 @@ p {
     align-items: flex-start;
     gap: 80px;
 }
+
 .portfolio--container-box {
     display: flex;
     justify-content: space-between;
@@ -435,6 +481,7 @@ p {
     align-items: flex-start;
     gap: 21.3px;
 }
+
 .portfolio--section--container {
     display: flex;
     align-items: center;
@@ -442,6 +489,7 @@ p {
     gap: 42.6px;
     width: 100%;
 }
+
 .portfolio--section--img {
     border-radius: 8px;
     width: 100%;
@@ -452,6 +500,7 @@ p {
         height: 75%;
     }
 }
+
 .portfolio--section--card {
     display: flex;
     padding: 16px;
@@ -483,6 +532,7 @@ p {
         height: 1.33px;
     }
 }
+
 .portfolio--section--card--content {
     display: flex;
     padding: 16px;
@@ -491,9 +541,11 @@ p {
     gap: 32px;
     align-self: stretch;
 }
+
 .portfolio--section--title {
     color: $color_6;
 }
+
 .portfolio--link {
     text-decoration: none;
     display: flex;
@@ -517,6 +569,7 @@ p {
         height: 1.33px;
     }
 }
+
 .contact--section {
     display: flex;
     padding: 150px 85px;
@@ -526,6 +579,7 @@ p {
     text-align: center;
     gap: 65px;
 }
+
 .contact--form--container {
     display: grid;
     grid-template-columns: auto;
@@ -533,12 +587,14 @@ p {
     width: 40%;
     row-gap: 32px;
 }
+
 .container {
     display: grid;
     grid-template-columns: repeat(2, auto);
     column-gap: 32px;
     row-gap: 32px;
 }
+
 .contact--label {
     display: flex;
     flex-direction: column;
@@ -547,6 +603,7 @@ p {
     flex: 1 0 0;
     width: 100%;
 }
+
 .contact--input {
     display: flex;
     padding: 16px;
@@ -556,10 +613,12 @@ p {
     border: 1px solid var(--primary);
     background: var(--white);
 }
+
 .contact--form--button {
     display: block;
     margin: 0 auto;
 }
+
 .footer--container {
     display: flex;
     padding: 107px 85px;
@@ -569,12 +628,14 @@ p {
     align-items: center;
     align-self: stretch;
 }
+
 .footer--link--container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
 }
+
 .footer--items {
     > ul {
         list-style: none;
@@ -591,6 +652,7 @@ p {
         }
     }
 }
+
 .footer--social--icon {
     display: flex;
     justify-content: flex-end;
@@ -607,6 +669,7 @@ p {
         flex-shrink: 0;
     }
 }
+
 .footer--icon {
     vertical-align: middle;
     transform: scale(1);
@@ -615,17 +678,20 @@ p {
         transform: scale(1.2);
     }
 }
+
 .divder {
     margin: 106px 0 43px;
     height: 1px;
     width: 100%;
     background-color: $background-color_5;
 }
+
 .footer--content--container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .footer--content {
     color: $color_5;
     font-size: 20px;
@@ -642,6 +708,7 @@ p {
     top: 25px;
     right: 25px;
 }
+
 .nav__hamburger__line {
     display: block;
     height: 0.188rem;
@@ -650,68 +717,84 @@ p {
     border-radius: 0.625rem;
     transition: all ease-in-out 0.2s;
 }
+
 @media only screen and (max-width: 1800px) {
     .hero--section--title {
         font-size: 68px;
         line-height: 70px;
     }
+
     .skills--section--title {
         font-size: 28px;
         line-height: 40px;
     }
 }
+
 @media only screen and (max-width: 1600px) {
     .skills--section--heading {
         font-size: 54px;
         line-height: 70px;
     }
+
     .skills--section--container {
         gap: 16px;
     }
+
     .skills--section--card {
         gap: 28px;
     }
+
     .skills--section--card--content {
         gap: 20px;
     }
+    
     .skills--section--title {
         font-size: 23px;
         line-height: 30px;
     }
+
     .skills--section--description {
         font-size: 17.333px;
         line-height: 27px;
     }
 }
+
 @media only screen and (max-width: 1200px) {
     .btn-outline-primary {
         display: none;
     }
+
     .btn-primary {
         justify-content: center;
         align-items: center;
         margin-left: 42%;
     }
+
     .hero--section {
         display: flex;
         flex-direction: column-reverse;
         padding-bottom: 70px;
     }
+
     .hero--section--title {
         text-align: center;
         font-size: 35px;
         line-height: 40px;
     }
+
     .hero--section-description {
         text-align: center;
     }
+
     .footer--content {
         text-align: center;
     }
+
     .skills--section--container {
         display: flex;
         flex-direction: column;
     }
+
     .about--section {
         display: flex;
         flex-direction: column;
@@ -719,19 +802,23 @@ p {
         padding-top: 0;
         padding-bottom: 0;
     }
+
     .portfolio--section--container {
         display: flex;
         flex-direction: column;
     }
+
     .portfolio--container-box {
         display: flex;
         flex-direction: column;
         gap: 30px;
     }
+
     .footer--link--container {
         display: flex;
         flex-direction: column;
     }
+
     .footer--items {
         > ul {
             display: flex;
@@ -740,66 +827,81 @@ p {
             align-items: center;
         }
     }
+
     .footer--content--container {
         display: flex;
         flex-direction: column;
     }
+
     .skills--section {
         align-items: center;
         gap: 20px;
         padding-top: 70px;
         padding-bottom: 70px;
     }
+
     .portfolio--container {
         align-items: center;
     }
+    
     .hero--section--content {
         align-items: center;
     }
+
     .hero--section--content--box {
         align-items: center;
         gap: 10px;
     }
+
     .footer--container {
         gap: 20px;
         padding-top: 70px;
         padding-bottom: 70px;
     }
+
     .about--section--img {
         width: 75%;
         height: 75%;
     }
+
     .skills--section--heading {
         font-size: 35px;
         line-height: 40px;
     }
+
     .sections--heading {
         font-size: 35px;
         line-height: 40px;
     }
+
     .contact--form--container {
         width: 100%;
     }
+
     .container {
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
+
     .footer--social--icon {
         > ul {
             padding: 0;
             align-items: center;
         }
     }
+
     .divider {
         margin: 20px;
     }
 }
+
 @media screen and (max-width: 1200px) {
     .nav__hamburger {
         display: flex;
         z-index: 200;
     }
+
     .navbar--items {
         display: flex;
         position: absolute;
@@ -826,9 +928,11 @@ p {
             }
         }
     }
+
     .navbar--items.active {
         top: 30px;
     }
+
     .nav__hamburger.active {
         &:nth-child(1) {
             transform: rotate(45deg) translate(0.45rem, 0.1875rem);
@@ -841,6 +945,7 @@ p {
         }
     }
 }
+
 @media only screen and (max-width: 600px) {
     .hero--section-title {
         font-size: 20px;
