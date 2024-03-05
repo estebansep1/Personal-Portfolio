@@ -8,13 +8,13 @@ const data = {
       githubLink: 'https://github.com/estebansep1/PongGame',
       liveLink: 'https://gameofpong.netlify.app/',
     },
-    {
-      id: 2,
-      title: 'Wander List',
-      description: `Wander List is a user-friendly to-do app built with React. Easily register and create your account to start organizing your tasks effortlessly. Whether it's your daily tasks or long-term goals, Wander List lets you manage them all. Plus, it offers a sleek dark mode for those late-night productivity sessions. Stay organized and on track with Wander List.`,
-      src: '/images/wanderList.mp4',
-      githubLink: 'https://github.com/MyManny/milestone-project-2'
-    },
+    // {
+    //   id: 2,
+    //   title: 'Wander List',
+    //   description: `Wander List is a user-friendly to-do app built with React. Easily register and create your account to start organizing your tasks effortlessly. Whether it's your daily tasks or long-term goals, Wander List lets you manage them all. Plus, it offers a sleek dark mode for those late-night productivity sessions. Stay organized and on track with Wander List.`,
+    //   src: '/images/wanderList.mp4',
+    //   githubLink: 'https://github.com/MyManny/milestone-project-2'
+    // },
   ],
 };
 
