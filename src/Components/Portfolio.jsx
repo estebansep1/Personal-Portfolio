@@ -1,4 +1,7 @@
-import data from "./Project-Data/projects";
+import React from 'react';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import data from './Project-Data/projects';
+import PictureSlider from './PictureSlider';
 
 export default function MyPortfolio() {
   return (
@@ -42,14 +45,7 @@ export default function MyPortfolio() {
         {data?.portfolio?.map((item, index) => (
           <div key={index} className="portfolio--section--card">
             <div className="portfolio--section--img">
-              {item.id === 2 ? (
-                <video width="100%" autoPlay loop muted playsInline>
-                  <source src={item.src} type="video/mp4" />
-                  Your browser does not support the video.
-                </video>
-              ) : (
-                <img src={item.src} alt="Project IMG" />
-              )}
+            <PictureSlider pictures={item.src} alt="Project IMG" />
             </div>
             <div className="portfolio--section--card--content">
               <div>
