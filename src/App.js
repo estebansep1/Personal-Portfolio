@@ -11,7 +11,17 @@ function App() {
           <NavBar />
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='*' element={<div>404 Not Found</div>} />
+            <Route path='*' element={
+            <div style={{
+              display: 'flex', 
+              justifyContent: 'center', 
+              alignItems: 'center', 
+              height: '100vh', 
+              fontSize: '3rem',
+            }}>
+              <strong>404 Error</strong>: Page does not exist
+            </div>
+          } />
           </Routes>
       </Router>
     </div>
