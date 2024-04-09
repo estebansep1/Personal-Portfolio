@@ -16,9 +16,9 @@ export default function AboutMe() {
               software development.
             </p>
             <p className="hero--section-description">
-            As a junior developer my skills expand well into both front-end and back-end technologies. 
-            Alongside deepening my expertise in software engineering, I'm embarking on an exciting journey into robotics and gadgets, starting with Arduino projects. 
-            My enthusiasm for turning these ideas into reality is sky-high. I'm right at the starting line, ready to explore how coding can bring innovative projects to life.
+              I've completed projects ranging from social platforms, honing my abilities in coding, problem-solving, and user experience design. 
+              My dedication to learning is matched by my eagerness to contribute to team-driven projects, and I aspire to stay at the forefront of industry advancements. 
+              With a commitment to quality and collaborative growth, I am excited to bring my skills to a dynamic team where I can contribute to meaningful and innovative software solutions.
             </p>
           </div>
         </div>
