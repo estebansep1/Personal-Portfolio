@@ -8,13 +8,14 @@ const data = {
       githubLink: 'https://github.com/estebansep1/PongGame',
       liveLink: 'https://gameofpong.netlify.app/',
     },
-    // {
-    //   id: 2,
-    //   title: 'Wander List',
-    //   description: `Wander List is a user-friendly to-do app built with React. Easily register and create your account to start organizing your tasks effortlessly. Whether it's your daily tasks or long-term goals, Wander List lets you manage them all. Plus, it offers a sleek dark mode for those late-night productivity sessions. Stay organized and on track with Wander List.`,
-    //   src: '/images/wanderList.mp4',
-    //   githubLink: 'https://github.com/MyManny/milestone-project-2'
-    // },
+    {
+      id: 2,
+      title: 'Cuisine Shuffle',
+      description: `A fun web application designed for my family and friends to help us decide where to eat in our area. By entering a location, the app shuffles and displays restaurant options, making the decision-making process easier and more enjoyable.`,
+      src: ['/images/cuisineshuffle.svg', '/images/cuisineshuffle(1).svg', '/images/cuisineshuffle(2).svg'],
+      githubLink: 'https://github.com/estebansep1/Cuisine-Shuffle',
+      liveLink: 'https://main--cuisineshuffle.netlify.app/',
+    }
   ],
 };
 
