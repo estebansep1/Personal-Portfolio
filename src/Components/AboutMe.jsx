@@ -18,7 +18,7 @@ export default function AboutMe() {
             <p className="hero--section-description">
               I've completed projects ranging from social platforms, honing my abilities in coding, problem-solving, and user experience design. 
               My dedication to learning is matched by my eagerness to contribute to team-driven projects, and I aspire to stay at the forefront of industry advancements. 
-              With a commitment to quality and collaborative growth, I am excited to bring my skills to a dynamic team where I can contribute to meaningful and innovative software solutions.
+              With a commitment to quality and collaborative growth, I am excited to bring my skills to a dynamic team where I can contribute to meaningful and innovative web and software solutions.
             </p>
           </div>
         </div>
