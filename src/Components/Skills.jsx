@@ -31,7 +31,7 @@ export default function MySkills() {
           <div className="skills--section--card--content">
             <h3 className="skills--section--title">Back-End</h3>
             <ul className="skills--section--description">
-              <li className="with--icon--2">Python</li>
+              {/* <li className="with--icon--2">Python</li> */}
               <li className="with--icon--2">NodeJS</li>
               <li className="with--icon--2">Express</li>
               <li className="with--icon--2">MongoDB</li>
@@ -46,7 +46,7 @@ export default function MySkills() {
           <div className="skills--section--card--content">
             <h3 className="skills--section--title">Other Tools</h3>
             <ul className="skills--section--description">
-              <li className="with--icon--3">Flask</li>
+              {/* <li className="with--icon--3">Flask</li> */}
               <li className="with--icon--3">Sass</li>
               <li className="with--icon--3">Git</li>
               <li className="with--icon--3">GitHub</li>

@@ -352,37 +352,37 @@ p {
     }
 
     li.with--icon--2 {
+        // &:nth-child(1) {
+        //     background-image: url("../../public/Images/python.png");
+        // }
         &:nth-child(1) {
-            background-image: url("../../public/Images/python.png");
-        }
-        &:nth-child(2) {
             background-image: url("../../public/Images/node.png");
         }
-        &:nth-child(3) {
+        &:nth-child(2) {
             background-image: url("../../public/Images/express.png");
         }
-        &:nth-child(4) {
+        &:nth-child(3) {
             background-image: url("../../public/Images/mongodb.png");
         }
-        &:nth-child(5) {
+        &:nth-child(4) {
             background-image: url("../../public/Images/postgres.png");
         }
     }
 
     li.with--icon--3 {
+        // &:nth-child(1) {
+        //     background-image: url("../../public/Images/flask.png");
+        // }
         &:nth-child(1) {
-            background-image: url("../../public/Images/flask.png");
-        }
-        &:nth-child(2) {
             background-image: url("../../public/Images/sass.png");
         }
-        &:nth-child(3) {
+        &:nth-child(2) {
             background-image: url("../../public/Images/git.png");
         }
-        &:nth-child(4) {
+        &:nth-child(3) {
             background-image: url("../../public/Images/github.png");
         }
-        &:nth-child(5) {
+        &:nth-child(4) {
             background-image: url("../../public/Images/api.png");
         }
     }
