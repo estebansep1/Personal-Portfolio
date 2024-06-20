@@ -871,6 +871,36 @@ p {
   transition: all ease-in-out 0.2s;
 }
 
+.not-found-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+.not-found-container .error-title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #5e3bee;
+  margin-bottom: 10px;
+}
+.not-found-container .error-message {
+  font-size: 2rem;
+  color: #282938;
+  margin-bottom: 30px;
+}
+
 @media only screen and (max-width: 1800px) {
   .hero--section--title {
     font-size: 68px;
