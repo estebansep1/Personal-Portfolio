@@ -128,7 +128,7 @@ export default function Footer() {
       <hr className="divder" />
       <div className="footer--content--container">
         <p className="footer--content">
-          Made by Esteban Sepulveda 🧑🏻‍💻 Stay Tuned for More!
+        &copy; {new Date().getFullYear()} Esteban Sepulveda 🧑🏻‍💻. Stay Tuned for More!
         </p>
       </div>
     </footer>
