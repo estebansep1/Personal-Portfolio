@@ -1184,6 +1184,8 @@ p {
         -ms-flex-pack: center;
             justify-content: center;
     margin-left: 57px;
+    margin: 0 auto;
+    display: block;
   }
   .navbar {
     -webkit-box-pack: center;
