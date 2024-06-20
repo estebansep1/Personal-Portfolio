@@ -681,11 +681,19 @@ p {
     }
 }
 
-.divder {
-    margin: 106px 0 43px;
-    height: 1px;
+.divider {
+    width: 0;
+    height: 1.5px;
+    background-color: black;
+    transition: width 1.5s ease-in-out;
+}
+
+.animate-width {
     width: 100%;
-    background-color: $background-color_5;
+}
+
+.reverse-width {
+    width: 0;
 }
 
 .footer--content--container {
