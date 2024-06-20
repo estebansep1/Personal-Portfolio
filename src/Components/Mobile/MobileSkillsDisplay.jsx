@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { gsap } from 'gsap';
-import '../Mobile/MobileSkillsDisplay.scss';
+import '../../Css/MobileSkillsDisplay.css';
 
 const skills = ['JavaScript', 'React', 'MongoDB' , 'CSS', 'Node', 'Express', 'Git', 'Netlify', 'Render', 'AWS'];
 
