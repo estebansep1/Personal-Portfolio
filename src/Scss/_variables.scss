@@ -23,3 +23,33 @@ $background-color_4: var(--bg-shade);
 $background-color_5: rgba(40, 41, 56, 0.55);
 $background-color_6: #000000;
 $background-color_7: rgba(255, 255, 255, 1);
+
+// Cube-specific variables
+$cube-width: 200px;
+$cube-height: 200px;
+$cube-border-color: #ccc;
+$cube-background: rgba(255, 255, 255, 0.4);
+$cube-box-shadow: 0 0 20px 0px rgb(223, 185, 255);
+$cube-face1-color: #5ed4f4;
+$cube-face2-color: #f06529;
+$cube-face3-color: #28a4d9;
+$cube-face4-color: #efd81d;
+$cube-face5-color: #ec4d28;
+$cube-face6-color: #306998;
+$cube-container-width: 90vw;
+$cube-container-height: 50vh;
+$cube-container-height-small: 60vh;
+$cube-animation-duration: 12s;
+
+// Mobile skill display-specific variables
+$skill-display-font-size: 20px;
+$skill-display-height: 50px;
+$skill-display-width: 200px;
+$skill-display-color: #fff;
+$skill-display-background: rgba(0, 0, 0, 0.5);
+$skill-display-border-color: rgba(255, 255, 255, 0.2);
+$skill-display-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+$skill-display-border-radius: 5px;
+$skill-display-margin: 20px 0;
+$skill-display-letter-spacing: 0.1em;
+$skill-display-transition: background 0.3s ease, box-shadow 0.3s ease;

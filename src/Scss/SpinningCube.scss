@@ -1,65 +1,66 @@
+@import 'variables';
+
 .cube--container {
-    width: 90vw;
-    height: 50vh; 
+    width: $cube-container-width;
+    height: $cube-container-height;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-  }
-  
-  .cube--spinner {
+}
+
+.cube--spinner {
     animation-name: spincube;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    animation-duration: 12s;
+    animation-duration: $cube-animation-duration;
     transform-style: preserve-3d;
     transform-origin: center center 0;
-    width: 200px;
-    height: 200px;
-    
+    width: $cube-width;
+    height: $cube-height;
+
     div {
-      position: absolute;
-      width:200px;
-      height: 200px;
-      border: 1px solid #ccc;
-      background: rgba(255, 255, 255, 0.4);
-      text-align: center;
-      font-size: 100px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      box-shadow: 0 0 20px 0px rgb(223, 185, 255);
+        position: absolute;
+        width: $cube-width;
+        height: $cube-height;
+        border: 1px solid $cube-border-color;
+        background: $cube-background;
+        text-align: center;
+        font-size: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: $cube-box-shadow;
     }
 
     .face1 {
         transform: rotateY(0deg) translateZ(100px);
-        color: #5ed4f4;
+        color: $cube-face1-color;
     }
     .face2 {
         transform: rotateY(90deg) rotateZ(-90deg) translateZ(100px);
-        color: #f06529
+        color: $cube-face2-color;
     }
     .face3 {
         transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
-        color: #28a4d9
+        color: $cube-face3-color;
     }
     .face4 {
         transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
-        color: #efd81d
+        color: $cube-face4-color;
     }
     .face5 {
         transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
-        color: #ec4d28
+        color: $cube-face5-color;
     }
     .face6 {
         transform: rotateX(-90deg) translateZ(100px);
-        color: #306998;
+        color: $cube-face6-color;
     }
 }
 
 @keyframes spincube {
-    from,
-    to {
+    from, to {
         transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
     }
     16% {
@@ -75,17 +76,17 @@
         transform: rotateY(-270deg) rotateX(90deg);
     }
     88% {
-        transform: rotateX(90deg)
+        transform: rotateX(90deg);
     }
 }
 
 @media screen and (max-width: 1200px) {
     .cube--container {
-        width: 90vw;
-        height: 60vh; 
+        width: $cube-container-width;
+        height: $cube-container-height-small;
         display: flex;
         justify-content: center;
         align-items: center;
         overflow: hidden;
-      }
+    }
 }
