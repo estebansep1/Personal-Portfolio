@@ -1,41 +1,40 @@
 :root {
-    --primary: #5e3bee;
-    --heading-color: #282938;
-    --bg-shade: #f5fcff;
-    --github: #e62872;
-    --darkblue: #1c1e53;
-    --black: #000000;
-    --white: #ffffff;
+    --primary: #007ACC; 
+    --secondary: #2E3A59; 
+    --accent: #E63946; 
+    --background: #F7FAFC; 
+    --text: #333333; 
+    --white: #FFFFFF; 
 }
 
 $color_1: var(--primary);
 $color_2: var(--white);
-$color_3: var(--github);
-$color_4: var(--darkblue);
-$color_5: var(--black);
-$color_6: var(--heading-color);
-$font-family_1: "Roboto", sans-serif;
-$font-family_2: "Roboto";
-$background-color_1: var(--white);
+$color_3: var(--accent);
+$color_4: var(--secondary);
+$color_5: var(--text);
+$color_6: var(--text);
+
+$font-family_1: "Lato", sans-serif; 
+$font-family_2: "Merriweather", serif;
 $background-color_2: var(--primary);
-$background-color_3: var(--github);
-$background-color_4: var(--bg-shade);
-$background-color_5: rgba(40, 41, 56, 0.55);
-$background-color_6: #000000;
+$background-color_3: var(--accent);
+$background-color_4: var(--background);
+$background-color_5: rgba(46, 58, 89, 0.55);
+$background-color_6: #2E3A59; 
 $background-color_7: rgba(255, 255, 255, 1);
 
 // Cube-specific variables
 $cube-width: 200px;
 $cube-height: 200px;
-$cube-border-color: #ccc;
+$cube-border-color: #dcdde1;
 $cube-background: rgba(255, 255, 255, 0.4);
-$cube-box-shadow: 0 0 20px 0px rgb(223, 185, 255);
-$cube-face1-color: #5ed4f4;
-$cube-face2-color: #f06529;
-$cube-face3-color: #28a4d9;
-$cube-face4-color: #efd81d;
-$cube-face5-color: #ec4d28;
-$cube-face6-color: #306998;
+$cube-box-shadow: 0 0 10px 0px rgba(0, 122, 204, 0.5); 
+$cube-face1-color: #74b9ff;
+$cube-face2-color: #fd79a8; 
+$cube-face3-color: #55efc4; 
+$cube-face4-color: #ffeaa7; 
+$cube-face5-color: #fab1a0;
+$cube-face6-color: #81ecec; 
 $cube-container-width: 90vw;
 $cube-container-height: 50vh;
 $cube-container-height-small: 60vh;

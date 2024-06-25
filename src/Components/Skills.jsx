@@ -12,7 +12,7 @@ export default function MySkills() {
       <div className="skills--section--container">
         <div className="skills--section--card">
           <div className="skills--section--img">
-            <img src="./images/frontend.png" alt="frontend" />
+            <img src="./images/frontend(1).png" alt="frontend" />
           </div>
           <div className="skills--section--card--content">
             <h3 className="skills--section--title">Front-End</h3>
@@ -26,7 +26,7 @@ export default function MySkills() {
         </div>
         <div className="skills--section--card">
           <div className="skills--section--img">
-            <img src="./images/backend.png" alt="backend" />
+            <img src="./images/backend(1).png" alt="backend" />
           </div>
           <div className="skills--section--card--content">
             <h3 className="skills--section--title">Back-End</h3>
@@ -41,7 +41,7 @@ export default function MySkills() {
         </div>
         <div className="skills--section--card">
           <div className="skills--section--img">
-            <img src="./images/misc.png" alt="misc" />
+            <img src="./images/misc(1).png" alt="misc" />
           </div>
           <div className="skills--section--card--content">
             <h3 className="skills--section--title">Other Tools</h3>

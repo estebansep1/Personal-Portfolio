@@ -1,11 +1,10 @@
 :root {
-  --primary: #5e3bee;
-  --heading-color: #282938;
-  --bg-shade: #f5fcff;
-  --github: #e62872;
-  --darkblue: #1c1e53;
-  --black: #000000;
-  --white: #ffffff;
+  --primary: #007ACC;
+  --secondary: #2E3A59;
+  --accent: #E63946;
+  --background: #F7FAFC;
+  --text: #333333;
+  --white: #FFFFFF;
 }
 
 .skill-display {

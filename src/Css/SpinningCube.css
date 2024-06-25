@@ -1,11 +1,10 @@
 :root {
-  --primary: #5e3bee;
-  --heading-color: #282938;
-  --bg-shade: #f5fcff;
-  --github: #e62872;
-  --darkblue: #1c1e53;
-  --black: #000000;
-  --white: #ffffff;
+  --primary: #007ACC;
+  --secondary: #2E3A59;
+  --accent: #E63946;
+  --background: #F7FAFC;
+  --text: #333333;
+  --white: #FFFFFF;
 }
 
 .cube--container {
@@ -43,7 +42,7 @@
   position: absolute;
   width: 200px;
   height: 200px;
-  border: 1px solid #ccc;
+  border: 1px solid #dcdde1;
   background: rgba(255, 255, 255, 0.4);
   text-align: center;
   font-size: 100px;
@@ -56,38 +55,38 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-shadow: 0 0 20px 0px rgb(223, 185, 255);
-          box-shadow: 0 0 20px 0px rgb(223, 185, 255);
+  -webkit-box-shadow: 0 0 10px 0px rgba(0, 122, 204, 0.5);
+          box-shadow: 0 0 10px 0px rgba(0, 122, 204, 0.5);
 }
 .cube--spinner .face1 {
   -webkit-transform: rotateY(0deg) translateZ(100px);
           transform: rotateY(0deg) translateZ(100px);
-  color: #5ed4f4;
+  color: #74b9ff;
 }
 .cube--spinner .face2 {
   -webkit-transform: rotateY(90deg) rotateZ(-90deg) translateZ(100px);
           transform: rotateY(90deg) rotateZ(-90deg) translateZ(100px);
-  color: #f06529;
+  color: #fd79a8;
 }
 .cube--spinner .face3 {
   -webkit-transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
           transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
-  color: #28a4d9;
+  color: #55efc4;
 }
 .cube--spinner .face4 {
   -webkit-transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
           transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
-  color: #efd81d;
+  color: #ffeaa7;
 }
 .cube--spinner .face5 {
   -webkit-transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
           transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
-  color: #ec4d28;
+  color: #fab1a0;
 }
 .cube--spinner .face6 {
   -webkit-transform: rotateX(-90deg) translateZ(100px);
           transform: rotateX(-90deg) translateZ(100px);
-  color: #306998;
+  color: #81ecec;
 }
 
 @-webkit-keyframes spincube {
