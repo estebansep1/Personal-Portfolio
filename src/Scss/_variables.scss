@@ -1,0 +1,25 @@
+:root {
+    --primary: #5e3bee;
+    --heading-color: #282938;
+    --bg-shade: #f5fcff;
+    --github: #e62872;
+    --darkblue: #1c1e53;
+    --black: #000000;
+    --white: #ffffff;
+}
+
+$color_1: var(--primary);
+$color_2: var(--white);
+$color_3: var(--github);
+$color_4: var(--darkblue);
+$color_5: var(--black);
+$color_6: var(--heading-color);
+$font-family_1: "Roboto", sans-serif;
+$font-family_2: "Roboto";
+$background-color_1: var(--white);
+$background-color_2: var(--primary);
+$background-color_3: var(--github);
+$background-color_4: var(--bg-shade);
+$background-color_5: rgba(40, 41, 56, 0.55);
+$background-color_6: #000000;
+$background-color_7: rgba(255, 255, 255, 1);
