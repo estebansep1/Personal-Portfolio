@@ -314,9 +314,9 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 30vw; /* Original size */
-  height: 30vh; /* Original size */
-  margin: 0 auto; /* Center the logo horizontally */
+  width: 33vw;
+  height: 30vh;
+  margin: 0 auto;
 }
 .logo-container .logo {
   width: 100%;
@@ -327,8 +327,8 @@ p {
 
 @media (max-width: 768px) {
   .logo-container {
-    width: 75vw; /* Adjusted size for mobile */
-    height: 50vh; /* Adjusted size for mobile */
+    width: 75vw;
+    height: 50vh;
   }
 }
 @-webkit-keyframes rotate {
