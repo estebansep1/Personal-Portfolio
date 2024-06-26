@@ -1,15 +1,13 @@
 @import "react-responsive-carousel/lib/styles/carousel.min.css";
 :root {
-  --primary: #007ACC; /* Azure Blue */
-  --secondary: #2E3A59; /* Dark Blue Gray */
-  --accent: #E63946; /* Red */
-  --background: #F7FAFC; /* Light Gray */
-  --text: #333333; /* Dark Gray */
-  --white: #FFFFFF; /* White */
+  --primary: #007ACC;
+  --secondary: #2E3A59;
+  --accent: #E63946;
+  --background: #F7FAFC;
+  --text: #333333;
+  --white: #FFFFFF;
 }
 
-/* Modern, clean font */
-/* Classic, readable font */
 body {
   margin: 0;
   font-family: "Lato", sans-serif;
@@ -306,6 +304,53 @@ p {
   height: 100%;
 }
 
+.logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30vw; /* Original size */
+  height: 30vh; /* Original size */
+  margin: 0 auto; /* Center the logo horizontally */
+}
+.logo-container .logo {
+  width: 100%;
+  height: auto;
+  -webkit-animation: rotate 5s linear infinite;
+          animation: rotate 5s linear infinite;
+}
+
+@media (max-width: 768px) {
+  .logo-container {
+    width: 75vw; /* Adjusted size for mobile */
+    height: 50vh; /* Adjusted size for mobile */
+  }
+}
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
 .skills--section {
   display: -webkit-box;
   display: -ms-flexbox;

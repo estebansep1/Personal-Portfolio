@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Typed from "typed.js";
 import { useMediaQuery } from 'react-responsive';
 import SkillDisplay from "./Mobile/MobileSkillsDisplay";
+import Logo from './Logo/Logo'
 
 export default function HeroSection() {
   const isMobile = useMediaQuery({ maxWidth: 1200 });
@@ -46,7 +47,7 @@ export default function HeroSection() {
         </a>
       </div>
       <div className="hero--section--img">
-        <img src="./images/logo.png" alt="Hero Section" />
+        <Logo />
       </div>
     </section>
   );
