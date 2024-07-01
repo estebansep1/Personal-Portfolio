@@ -525,11 +525,6 @@ p {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     position: relative;
-    &:hover {
-        path {
-            stroke: var(--github);
-        }
-    }
     &::after {
         content: "";
         display: block;
@@ -555,16 +550,20 @@ p {
 }
 
 .portfolio--link {
+    color: inherit;
     text-decoration: none;
     display: flex;
     gap: 16px;
     font-weight: 600;
+    position: relative;
     &:hover {
-        stroke: var(--primary);
         border-bottom: 1.33px solid var(--primary);
         padding-bottom: 10.6px;
         &::after {
             transform: scaleX(1);
+        }
+        svg path {
+            stroke: blue;
         }
     }
     &::after {
