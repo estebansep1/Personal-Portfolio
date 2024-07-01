@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import Typed from "typed.js";
-import { useMediaQuery } from 'react-responsive';
-import SkillDisplay from "./Mobile/MobileSkillsDisplay";
-import Logo from './Logo/Logo'
+import { useMediaQuery } from "react-responsive";
+import SkillDisplay from "../Components/Mobile/MobileSkillsDisplay";
+import Logo from "../Components/Logo/Logo";
 
 export default function HeroSection() {
   const isMobile = useMediaQuery({ maxWidth: 1200 });
@@ -33,13 +33,16 @@ export default function HeroSection() {
             <SkillDisplay />
           ) : (
             <h1 className="hero--section-title">
-              <span className="hero--section-title--color">Full Stack</span> <br />
+              <span className="hero--section-title--color">Full Stack</span>{" "}
+              <br />
               Developer
             </h1>
           )}
           <p className="hero--section-description">
-            As a junior developer with a strong foundation in web development, I recently graduated from a software development bootcamp. 
-            My expertise is rooted in software engineering, where I am continuously seeking to deepen my knowledge and skills in this dynamic field.
+            As a junior developer with a strong foundation in web development, I
+            recently graduated from a software development bootcamp. My
+            expertise is rooted in software engineering, where I am continuously
+            seeking to deepen my knowledge and skills in this dynamic field.
           </p>
         </div>
         <a href="mailto:tebansd@icloud.com" className="btn btn-primary">

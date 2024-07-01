@@ -1,7 +1,7 @@
 import React from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import data from './Project-Data/projects';
-import PictureSlider from './PictureSlider';
+import data from '../Components/Project-Data/projects';
+import PictureSlider from '../Components/PictureSlider'
 
 export default function MyPortfolio() {
   return (

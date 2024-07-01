@@ -1,5 +1,5 @@
 import React from "react";
-import SpinningCube from "./3DCube/SpinningCube";
+import SpinningCube from "../Components/3DCube/SpinningCube";
 
 export default function MySkills() {
   return (
