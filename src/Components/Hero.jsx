@@ -10,7 +10,7 @@ export default function HeroSection() {
   useEffect(() => {
     if (!isMobile) {
       const typed = new Typed(".hero--section-title", {
-        strings: ["Full Stack Developer", "Web Developer", "Lifelong Learner"],
+        strings: ["Full Stack Developer", "Web Developer", "Tech Newcomer"],
         typeSpeed: 100,
         backSpeed: 100,
         backDelay: 1000,
